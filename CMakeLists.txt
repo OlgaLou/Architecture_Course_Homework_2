@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(test_motion_and_rotation main.cpp exeptions.h motion.h motion_tests.h)
+add_executable(test_motion_and_rotation main.cpp exeptions.h motion.h motion_tests.h rotation.h rotation_tests.h)
 
 target_link_libraries(test_motion_and_rotation  
   PRIVATE 

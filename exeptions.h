@@ -26,3 +26,9 @@ class set_exeption : public exception_base
 public:
   set_exeption () : exception_base ("Object Property Setter Error") {}
 };
+
+class rotate_exeption : public exception_base
+{
+public:
+  rotate_exeption () : exception_base ("Rotation Error") {}
+};

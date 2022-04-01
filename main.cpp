@@ -1,4 +1,5 @@
 #include "motion_tests.h"
+#include "rotation_tests.h"
 
 #include <gtest/gtest.h>
 
